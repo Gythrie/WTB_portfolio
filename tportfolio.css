@@ -1,0 +1,47 @@
+div{
+    color:white;
+    text-align: center;
+    background-color: rgb(114, 45, 114);
+   font-family: Georgia ;
+}
+body{
+    background-color: violet;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.large-button {
+    padding: 80px 80px;
+    font-size: 40px;
+    color:rgb(66, 8, 66);
+    font-family: Verdana ;
+    background-color:rgb(255, 255, 255) ;
+    border: 5px solid rgb(114, 45, 114);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.large-button:hover {
+    background-color: rgb(114, 45, 114); 
+    color: rgb(255, 255, 255);          
+    border-color: rgb(66, 8, 66);     
+}
+.mycontainer{
+    align-items: center;
+    display:flex;
+}
+
