@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="https://kit.fontawesome.com/3677b065b8.js" crossorigin="anonymous"></script>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" alt="Logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Gowri</span><br>lakshmi from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------about------------------------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/background1.jpg" alt="About Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I am a passionate programmer with experience in  web development, and machine learning. I enjoy solving complex problems with simple solutions and thrive in collaborative environments. Having worked on projects like chatbots, prototypes, and interactive web applications, I am eager to contribute my skills to innovative teams and continue learning new technologies.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Machine Learning</span><br>Building Prediction Models</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023</span><br>UI/UX Design Training at ET</li>
+                            <li><span>2024</span><br>Web developement Projects</li>
+                            <li><span>2024</span><br>Interned under a professor at CUSAT,specializing in machine learning </li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021</span><br>Schooling in Bharatiya Vidya Bhavan</li>
+                            <li><span>2027</span><br>Btech from College of Engineering Trivandrum</li>
+                            
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- --------------------------services------------------------------ -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Designing web products,freelancing</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                <h2>UI/UX</h2>
+                <p>UI/UX designing</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-hexagon-nodes"></i>
+                <h2>Machine learning Models</h2>
+                <p>Prediction model design</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+
+    </div>
+
+ </div>
+ <!-- ------------------portfolio------------------------------- -->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/clubmasterapp.png">
+                <div class="layer">
+                    <h3>Club App</h3>
+                    <p>The app helps you to join clubs easily,get more details on the club and be informed about the execom calls of the clubs</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/clock.png">
+                <div class="layer">
+                    <h3>Clock Website</h3>
+                    <p>A simple clock that tells time</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/poschy.png">
+                <div class="layer">
+                    <h3>Poschy bot and Website</h3>
+                    <p>A bot the connects investors and startup companies and a website that store these informations</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+
+    </div>
+  </div>
+<!-- -------------------contact---------------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>gowrilakshmi321@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7356505135</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100095349967229"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/_ggowri_123/?hl=en"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/gowrilakshmi-renjith-a2181729b/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/GOWRILAKSHMI R.pdf" download  class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Made with Great Stack youtube tutorials. Copyright Kevin<i class="fa-solid fa-heart"></i></p>
+    </div>
+ </div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+            
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+            
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+
+</script>
+</body>
+</html>
