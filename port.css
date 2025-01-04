@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.background {
+    background-color: rgb(135, 117, 117);
+    height: 50vh;
+    padding-top: 3px;
+}
+.top {
+    background-color: rgb(57, 60, 59);
+    padding: 50px;
+}
+.name {
+    border: 0cqb;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5%;
+    font-style: inherit;
+    font-weight: 400;
+    padding: 10px;
+}
+.occupation 
+{
+    position: relative;
+    top: 50px;
+    left:-10px;
+    color: rgb(125, 118, 110);
+    text-align: left;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    line-height: 100px;
+}
+.round-box {
+    position: relative;
+    width: 120px;
+    height: 40px;
+    border: 1px solid #000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    font-size: 16px;
+    float: right;
+    top: -25px;
+    left:-10px;
+}
+a {
+    text-decoration: none;
+}
+.bottom {
+    background-color: rgb(36, 35, 33);
+    padding: 200px;
+}
+.intro {
+    text-align: center;
+    position: relative;
+    top: -100px;
+    left:10px;
+    color: aliceblue;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid black;
+    display: inline-block;
+    font-weight: lighter;
+    animation: typing 1s  , blink 0.7s infinite;
+    width: 150ch;
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {0
+        width: 150ch;
+    }
+}
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+    100% {
+        border-color: black;
+    }
+}
+.works {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    top: -50px;
+    color: aliceblue;
+}
+.portfolio-slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .slide {
+    flex: 0 0 auto;
+    position: relative;
+    scroll-snap-align: start;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .slide:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Text Overlay */
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .slide:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay h3 {
+    margin: 0;
+    font-size: 1.1em;
+  }
+  
+  .overlay p {
+    margin: 5px 0 0;
+    font-size: 0.9em;
+  }
+  .list-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    position: relative;
+    top: 50px;
+  }
+  
+  /* Individual List Box */
+  .list-box {
+    background-color: rgb(36, 35, 33);
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .list-box h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  /* Ordered List Styling */
+  .list-box ol {
+    list-style-type: square;
+    padding-left: 20px;
+    margin: 0;
+  }
+  
+  .list-box li {
+    margin: 8px 0;
+    font-size: 1em;
+    color: #d2c1c1;
+  }
+  
+  /* Responsive Design for Smaller Screens */
+  @media (max-width: 768px) {
+    .list-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .list-box {
+      width: 90%;
+    }
+  }
+ .final {
+    text-align: center;
+    color: aliceblue;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid black;
+    display: inline-block;
+    font-weight: lighter;
+    animation: typing 1s  , blink 0.7s infinite;
+    width: 150ch;
+    position: relative;
+    top: 100px;
+
+ }
+ 
